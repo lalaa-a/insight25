@@ -15,7 +15,7 @@ import InfluencerSession from "@/Components/timeline/InfluencerSession.vue";
 const events = shallowRef([
     {
         status: "Online Session",
-        // date: "23rd September 2024",
+        // date: "28rd November 2025",
         icon: "pi pi-video",
         color: "#9C27B0",
         // image: "game-controller.jpg",

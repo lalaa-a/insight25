@@ -63,7 +63,7 @@ onUnmounted(() => {
         <div
             class="mt-2 text-center text-xs leading-tight lg:mx-24 lg:mt-4 lg:text-base"
         >
-            Insight 2024 is the largest corporate day organized by AIESEC in
+            Insight 2025 is the largest corporate day organized by AIESEC in
             University of Colombo for the eighth consecutive year. It aims to
             help undergraduates and school leavers step into the world of
             corporate excellence and unrivaled networking.

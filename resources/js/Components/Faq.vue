@@ -9,7 +9,7 @@ const faqs = ref([
     {
         title: "What is INSIGHT?",
         content:
-            "INSIGHT is the largest corporate event organized by AIESEC in University of Colombo.",
+            "INSIGHT is the largest corporate event organized by AIESEC in University of Colombo.Test test",
         value: "0",
     },
     {
