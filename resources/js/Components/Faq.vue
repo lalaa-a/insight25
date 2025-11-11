@@ -35,14 +35,14 @@ const faqs = ref([
         value: "4",
     },
     {
-        title: "Where is Insight 2024 held?",
+        title: "Where is Insight 2025 held?",
         content:
-            "Insight 2024 will be held at the University of Colombo. Specific venue details will be provided closer to the event date.",
+            "Insight 2025 will be held at the University of Colombo. Specific venue details will be provided closer to the event date.",
         value: "5",
     },
     {
-        title: "Is there a fee to attend Insight 2024?",
-        content: "No, attending Insight 2024 is completely free of charge.",
+        title: "Is there a fee to attend Insight 2025?",
+        content: "No, attending Insight 2025 is completely free of charge.",
         value: "6",
     },
 ]);
