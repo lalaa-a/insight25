@@ -14,7 +14,7 @@ const faqs = ref([
     },
     {
         title: "When will INSIGHT take place?",
-        content: "INSIGHT will take place in November of 2024.",
+        content: "INSIGHT will take place in 28th November of 2025.",
         value: "1",
     },
     {
