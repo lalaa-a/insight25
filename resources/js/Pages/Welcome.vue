@@ -47,9 +47,13 @@ onUnmounted(() => {
             </div>
             <span> Insight25 Your Corporate Edge </span>
             <!--            <span>opening </span>-->
-            <span class="text-primary">Register Now</span>
+            <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="text-primary">Register Now</a>
         </div>
-        <div v-if="canRegister" class="my-4 text-center">
+        <div v-if="false" class="my-4 text-center">
+            <Link v-if="$page.props.auth.user" :href="route('dashboard')">
+                <Button raised size="large">Dashboard</Button>
+            </Link>
+
             <div v-else>
                 <a href="https://click.aiesec.lk/cc/insight-25-registrations">
                     <Button raised size="large">Register</Button>
