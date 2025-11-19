@@ -5,8 +5,8 @@ type TimeLeftKeys = "days" | "hours" | "minutes" | "seconds";
 
 interface TimeLeftInterface extends Record<TimeLeftKeys, number> {}
 
-const startTime = new Date("2024-11-01T09:00:00");
-const endTime = new Date("2024-11-01T14:00:00");
+const startTime = new Date("2025-11-28T09:00:00");
+const endTime = new Date("2025-11-28T14:00:00");
 
 const beautifulStartTime = new Date(startTime).toLocaleString("en-US", {
     weekday: "long",
