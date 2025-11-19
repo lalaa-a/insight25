@@ -49,11 +49,7 @@ onUnmounted(() => {
             <!--            <span>opening </span>-->
             <span class="text-primary">Register Now</span>
         </div>
-        <div v-if="false" class="my-4 text-center">
-            <Link v-if="$page.props.auth.user" :href="route('dashboard')">
-                <Button raised size="large">Dashboard</Button>
-            </Link>
-
+        <div v-if="canRegister" class="my-4 text-center">
             <div v-else>
                 <a href="https://click.aiesec.lk/cc/insight-25-registrations">
                     <Button raised size="large">Register</Button>
