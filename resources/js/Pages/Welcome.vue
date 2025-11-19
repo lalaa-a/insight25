@@ -118,6 +118,7 @@ onUnmounted(() => {
     left: 0;
     width: 0;
     height: 3px;
+    border-radius: 10px;
     background-color: currentColor;
     transition: width 0.3s ease;
 }
