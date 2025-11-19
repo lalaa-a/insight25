@@ -48,7 +48,7 @@ onUnmounted(() => {
             </div>
             <span class="marginAbit"> Insight25 We Are Live Now</span> <br>
             <!--            <span>opening </span>-->
-            <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="register-link text-primary mt-4">Register Here</a>
+            <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="register-link text-primary mt-10">Register Here</a>
         </div>
         
         <div
