@@ -45,7 +45,7 @@ onUnmounted(() => {
             <div class="my-5 flex justify-center">
                 <ApplicationLogo class="h-16 w-auto" />
             </div>
-            <span> Insight 2025: Your Gateway to the Corporate World </span>
+            <span> Insight25 Your Corporate Edge </span>
             <!--            <span>opening </span>-->
             <span class="text-primary">Register Now</span>
         </div>
@@ -55,7 +55,7 @@ onUnmounted(() => {
             </Link>
 
             <div v-else>
-                <Link :href="route('register')">
+                <Link :href="click.aiesec.lk/cc/insight-25-registrations">
                     <Button raised size="large">Register</Button>
                 </Link>
             </div>
