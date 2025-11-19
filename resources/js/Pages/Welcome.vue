@@ -46,9 +46,9 @@ onUnmounted(() => {
             <div class="my-5 flex justify-center">
                 <ApplicationLogo class="h-16 w-auto" />
             </div>
-            <span> Insight25 We Are Live Now</span> <br>
+            <span> Insight25 We Are Live Now</span> <br><br>
             <!--            <span>opening </span>-->
-            <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="text-primary transition-all duration-300 hover:underline">Register Here</a>
+            <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="register-link text-primary">Register Here</a>
         </div>
         
         <div
@@ -103,3 +103,25 @@ onUnmounted(() => {
         <Faq />
     </Layout>
 </template>
+
+<style scoped>
+.register-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.register-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.register-link:hover::after {
+    width: 100%;
+}
+</style>
