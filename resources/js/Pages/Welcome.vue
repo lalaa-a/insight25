@@ -107,7 +107,7 @@ onUnmounted(() => {
 <style scoped>
 
 .marginAbit {
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .register-link {
