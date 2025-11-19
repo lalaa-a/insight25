@@ -52,7 +52,7 @@ onUnmounted(() => {
         </div>
         
         <div
-            class="mt-2 text-center text-xs leading-tight lg:mx-24 lg:mt-4 lg:text-base"
+            class="mt-2 text-center text-xs leading-tight lg:mx-24 lg:mt-4 lg:text-base mb-2"
         >
             Insight 2025 is the largest corporate day organized by AIESEC in
             University of Colombo for the ninth consecutive year. It aims to
