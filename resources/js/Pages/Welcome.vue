@@ -41,6 +41,7 @@ onUnmounted(() => {
 <template>
     <Head title="Welcome" />
     <Layout>
+    
         <div class="text-center text-2xl lg:text-5xl">
             <div class="my-5 flex justify-center">
                 <ApplicationLogo class="h-16 w-auto" />
@@ -49,17 +50,7 @@ onUnmounted(() => {
             <!--            <span>opening </span>-->
             <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="text-primary">Register Now</a>
         </div>
-        <div v-if="false" class="my-4 text-center">
-            <Link v-if="$page.props.auth.user" :href="route('dashboard')">
-                <Button raised size="large">Dashboard</Button>
-            </Link>
-
-            <div v-else>
-                <a href="https://click.aiesec.lk/cc/insight-25-registrations">
-                    <Button raised size="large">Register</Button>
-                </a>
-            </div>
-        </div>
+        
         <div
             class="mt-2 text-center text-xs leading-tight lg:mx-24 lg:mt-4 lg:text-base"
         >
