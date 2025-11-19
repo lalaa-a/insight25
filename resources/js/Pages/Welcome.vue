@@ -46,7 +46,7 @@ onUnmounted(() => {
             <div class="my-5 flex justify-center">
                 <ApplicationLogo class="h-16 w-auto" />
             </div>
-            <span> Insight25 We Are Live Now</span> <br>
+            <span class="paddingAbit"> Insight25 We Are Live Now</span> <br>
             <!--            <span>opening </span>-->
             <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="register-link text-primary">Register Here</a>
         </div>
@@ -105,6 +105,10 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
+.paddingAbit {
+    padding-bottom: 0.5rem;
+}
+
 .register-link {
     position: relative;
     text-decoration: none;
@@ -116,7 +120,7 @@ onUnmounted(() => {
     bottom: -4px;
     left: 0;
     width: 0;
-    height: 4px;
+    height: 3px;
     background-color: currentColor;
     transition: width 0.3s ease;
 }
