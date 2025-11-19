@@ -45,9 +45,9 @@ onUnmounted(() => {
             <div class="my-5 flex justify-center">
                 <ApplicationLogo class="h-16 w-auto" />
             </div>
-            <span>Insight 2024 concluded </span>
+            <span> Insight 2025: Your Gateway to the Corporate World </span>
             <!--            <span>opening </span>-->
-            <span class="text-primary">successfully</span>
+            <span class="text-primary">Register Now</span>
         </div>
         <div v-if="false" class="my-4 text-center">
             <Link v-if="$page.props.auth.user" :href="route('dashboard')">
@@ -64,7 +64,7 @@ onUnmounted(() => {
             class="mt-2 text-center text-xs leading-tight lg:mx-24 lg:mt-4 lg:text-base"
         >
             Insight 2025 is the largest corporate day organized by AIESEC in
-            University of Colombo for the eighth consecutive year. It aims to
+            University of Colombo for the ninth consecutive year. It aims to
             help undergraduates and school leavers step into the world of
             corporate excellence and unrivaled networking.
         </div>
