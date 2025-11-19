@@ -46,7 +46,7 @@ onUnmounted(() => {
             <div class="my-5 flex justify-center">
                 <ApplicationLogo class="h-16 w-auto" />
             </div>
-            <span> Insight25 We Are Live Now</span> <br><br>
+            <span> Insight25 We Are Live Now</span> <br>
             <!--            <span>opening </span>-->
             <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="register-link text-primary">Register Here</a>
         </div>
@@ -116,7 +116,7 @@ onUnmounted(() => {
     bottom: -4px;
     left: 0;
     width: 0;
-    height: 2px;
+    height: 4px;
     background-color: currentColor;
     transition: width 0.3s ease;
 }
