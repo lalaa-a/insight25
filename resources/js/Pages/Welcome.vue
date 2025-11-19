@@ -46,7 +46,7 @@ onUnmounted(() => {
             <div class="my-5 flex justify-center">
                 <ApplicationLogo class="h-16 w-auto" />
             </div>
-            <span class="mb-4"> Insight25 We Are Live Now</span> <br>
+            <span class="my-5"> Insight25 We Are Live Now</span> <br>
             <!--            <span>opening </span>-->
             <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="register-link text-primary mt-10">Register Here</a>
         </div>
