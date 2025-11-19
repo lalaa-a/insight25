@@ -48,7 +48,7 @@ onUnmounted(() => {
             </div>
             <span> Insight25 We Are Live Now</span> <br>
             <!--            <span>opening </span>-->
-            <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="text-primary transition-all duration-300 hover:text-primary-500">Register Here</a>
+            <a href="https://click.aiesec.lk/cc/insight-25-registrations" class="text-primary transition-all duration-300 hover:underline">Register Here</a>
         </div>
         
         <div
