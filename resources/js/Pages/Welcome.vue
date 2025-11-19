@@ -55,7 +55,7 @@ onUnmounted(() => {
             </Link>
 
             <div v-else>
-                <a href="click.aiesec.lk/cc/insight-25-registrations">
+                <a href="https://click.aiesec.lk/cc/insight-25-registrations">
                     <Button raised size="large">Register</Button>
                 </a>
             </div>
